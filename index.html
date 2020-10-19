@@ -7,8 +7,19 @@
     <body>
         <header>
             <h1>Activity Destress Generator</h1>
-            <p>Simply click the button below to generate a random activity and start destressing immediately!</p>
+            <p>Simply choose what category of activity you want and click the button below 
+                to generate a random activity to start destressing immediately!</p>
         </header>
+        <section id="list-choice">
+            <input type="radio" id="exercise" name="activity-list" value="exercise">
+            <label for="exercise">Exercise Activity</label>
+            <input type="radio" id="mental" name="activity-list" value="mental">
+            <label for="mental">Mental Activity</label>
+            <input type="radio" id="comfort" name="activity-list" value="comfort">
+            <label for="comfort">Comfort Activity</label>
+            <input type="radio" id="any" name="activity-list" value="any">
+            <label for="any">Any Activity</label>
+        </section>
         <section>
             <div id="headline-display">
                 <h2 id="display">Task displays here</h2>
