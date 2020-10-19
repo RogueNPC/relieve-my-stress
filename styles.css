@@ -20,7 +20,7 @@ h1 {
     text-decoration: underline;
 }
 
-p {
+p, button, div {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
