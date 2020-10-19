@@ -3,9 +3,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-style: double;
     margin: 30px 500px;
-    padding: 50px;
+    background-color: skyblue;
 }
 
 main {
@@ -13,6 +12,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: lightsalmon;
+    border-style: double;
+    padding: 50px;
 }
 
 h1 {
@@ -22,13 +24,22 @@ h1 {
 
 p, button, div {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+label {
+    margin: 0 30px 0 0;
 }
 
 section {
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-div {
+#headline-display {
     border-style: dashed;
     border-width: 5px;
     padding: 0px 10px;
