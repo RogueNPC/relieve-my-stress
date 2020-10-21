@@ -9,7 +9,7 @@ function replace_text() {
                             "Meditate for a few minutes", "Remember a time when you were relaxed and enjoying yourself"]
 
     const exerciseActivities = ["Take a short jog outside", "Do a couple pushups", "Do a couple jumping jacks",
-                                "Go to the gym", "Do some stretches"]
+                                "Do some stretches"]
 
     const mentalActivities = ["Take a few deep breaths", "Yell into a pillow", "Compliment yourself",
                                 "Meditate for a few minutes", "Remember a time when you were relaxed and enjoying yourself"]
